@@ -4,7 +4,7 @@
 // 5 -> Пятница
 
 Console.WriteLine("Введите число от 1 до 7: ");
-int day = Convert.ToInt32(Console.ReadLine());
+string day = (Console.ReadLine();
 if (day == 1)
 {
 Console.WriteLine($"День недели - понедельник");
@@ -32,4 +32,8 @@ Console.WriteLine($"День недели - суббота");
 else if (day == 7)
 {
 Console.WriteLine($"День недели - воскресенье");
+}
+else 
+{
+Console.WriteLine($"Проверьте введеные даннные");
 }
